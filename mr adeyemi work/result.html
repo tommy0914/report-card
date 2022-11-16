@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+    <script src="result.js?v=1.0.2"></script>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body style="background-image: url(logo1.jpg)" id="body"> 
+    <header>
+        <div>
+            <div>
+                <div id="heading">
+                    <div>
+                        <img src="logo2.png" alt="" height="200px" id="img">
+                    </div>
+                    <h1 id="text">
+                     SHELPARD DELIGHT ACADEMY <br> GROUP OF SCHOOL
+                    </h1>
+                </div>
+            </div>
+           <div id="input">
+            <label for="Name">NAME</label>
+            <input type="text" id="name">
+            <label for="gender">GENDER</label>
+            <input type="text" id="gender" >
+            <label for="class">CLASS</label>
+            <input type="text"
+            id="class">
+           </div>
+           
+
+        </div>
+    </header>
+    <table border="3" cellspacing="0" width="75%" height="90%" align="center">
+        
+        <tr>
+            
+            <th colspan="">
+                Subject
+            </th>
+            <th rowspan="">
+                Assighnment
+            </th>
+            <th rowspan="">
+                TEST
+            </th>
+            <th>
+                CA TEST
+            </th>
+            <th> 
+                EXAM
+            </th>
+            <th>
+                TOTAL
+            </th>
+            <th>
+                REMARKS
+            </th>
+        </tr>
+        <tr>
+            <th> MATHMATICS</th>
+            <th>
+                <input type="number" id="mth_assignment" maxlength="2">
+            </th>
+            <th>
+                <input type="number" name="" id="mth_test" maxlength="2">
+            </th>
+            <th>
+                <input type="number" name="" id="mth_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="mth_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="mth_total">
+            </th>
+            <th>
+                <span id="mth_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th> ENGLISH</th>
+            <th>
+                <input type="number" name="" id="eng_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="eng_test">
+            </th>
+            <th>
+                <input type="number" name="" id="eng_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="eng_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="eng_total">
+            </th>
+            <th>
+                <span id="eng_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> Q/R</th>
+            <th>
+                <input type="number" name="" id="qr_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="qr_test">
+            </th>
+            <th>
+                <input type="number" name="" id="qr_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="qr_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="qr_total">
+            </th>
+            <th>
+                <span id="qr_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> V/R</th>
+            <th>
+                <input type="number" name="" id="vr_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="vr_test">
+            </th>
+            <th>
+                <input type="number" name="" id="vr_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="vr_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="vr_total">
+            </th>
+            <th>
+                <span id="vr_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> COMPUTER</th>
+            <th>
+                <input type="number" name="" id="com_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="com_test">
+            </th>
+            <th>
+                <input type="number" name="" id="com_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="com_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="com_total">
+            </th>
+            <th>
+                <span id="com_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> SOCIAL STUDIES</th>
+            <th>
+                <input type="number" name="" id="soc_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="soc_test">
+            </th>
+            <th>
+                <input type="number" name="" id="soc_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="soc_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="soc_total">
+            </th>
+            <th>
+                <span id="soc_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> CRS/IRS</th>
+            <th>
+                <input type="number" name="" id="cr_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="cr_test">
+            </th>
+            <th>
+                <input type="number" name="" id="cr_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="cr_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="cr_total">
+            </th>
+            <th>
+                
+                <span id="cr_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> YORUBA</th>
+            <th>
+                <input type="number" name="" id="yor_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="yor_test">
+            </th>
+            <th>
+                <input type="number" name="" id="yor_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="yor_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="yor_total">
+            </th>
+            <th>
+                <span id="yor_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th> BASIC SCIENCE</th>
+            <th>
+                <input type="number" name="" id="bas_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="bas_test">
+            </th>
+            <th>
+                <input type="number" name="" id="bas_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="bas_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="bas_total">
+            </th>
+            <th>
+                <span id="bas_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th> CCA</th>
+            <th>
+                <input type="number" name="" id="cca_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="cca_test">
+            </th>
+            <th>
+                <input type="number" name="" id="cca_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="cca_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="cca_total">
+                
+            </th>
+            <th>
+                <span id="cca_remarks"></span>
+            </th>
+        </tr>
+        <tr>
+            <th>HISTORY </th>
+            <th>
+                <input type="number" name="" id="his_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="his_test">
+            </th>
+            <th>
+                <input type="number" name="" id="his_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="his_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="his_total">
+                
+            </th>
+            <th>
+                <span id="his_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th> WRITING</th>
+            <th>
+                <input type="number" name="" id="wri_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="wri_test">
+            </th>
+            <th>
+                <input type="number" name="" id="wri_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="wri_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="wri_total">
+                
+            </th>
+            <th>
+                <span id="wri_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>RHYME/POEM </th>
+            <th>
+                <input type="number" name="" id="rhy_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="rhy_test">
+            </th>
+            <th>
+                <input type="number" name="" id="rhy_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="rhy_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="rhy_total">
+                
+            </th>
+            <th>
+                <span id="rhy_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>SECURITY EDUCATION </th>
+            <th>
+                <input type="number" name="" id="sec_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="sec_test">
+            </th>
+            <th>
+                <input type="number" name="" id="sec_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="sec_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="sec_total">
+                
+            </th>
+            <th>
+                <span id="sec_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>FRENCH</th>
+            <th>
+                <input type="number" name="" id="fre_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="fre_test">
+            </th>
+            <th>
+                <input type="number" name="" id="fre_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="fre_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="fre_total">
+                
+            </th>
+            <th>
+                <span id="fre_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>HEALTH HABIT </th>
+            <th>
+                <input type="number" name="" id="hea_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="hea_test">
+            </th>
+            <th>
+                <input type="number" name="" id="hea_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="hea_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="hea_total">
+                
+            </th>
+            <th>
+                <span id="hea_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>BASIC TECH</th>
+            <th>
+                <input type="number" name="" id="bat_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="bat_test">
+            </th>
+            <th>
+                <input type="number" name="" id="bat_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="bat_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="bat_total">
+                
+            </th>
+            <th>
+                <span id="bat_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>CIVIC EDUCATION </th>
+            <th>
+                <input type="number" name="" id="civ_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="civ_test">
+            </th>
+            <th>
+                <input type="number" name="" id="civ_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="civ_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="civ_total">
+                
+            </th>
+            <th>
+                <span id="civ_remarks"></span>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>PHE</th>
+            <th>
+                <input type="number" name="" id="phe_assignment">
+            </th>
+            <th>
+                <input type="number" name="" id="phe_test">
+            </th>
+            <th>
+                <input type="number" name="" id="phe_ca">
+            </th>
+            <th>
+                <input type="number" name="" id="phe_exam">
+            </th>
+            <th>
+                <input type="number" name="" id="phe_total">
+                
+            </th>
+            <th>
+                <span id="phe_remarks"></span>
+                
+            </th>
+        </tr>
+      
+       
+        </tr>
+       
+    </table>
+    <table border="3" cellspacing="0" width="75%" height="90%" align="center">
+        <tr>
+            <th>
+               CA TOTAL
+            </th>
+            <th><input type="number" id="catotal"></th>
+            <th>EXAM TOTAL</th>
+            <th><input type="number"></th>
+        </tr>
+    </table>
+    <table border="3" cellspacing="2" width="75%" height="40%" align="center" >
+        <tr>
+         <th>
+             
+         </th>
+         <th><input type="checkbox"></th>
+         <th><input type="checkbox"></th>
+         <th><input type="checkbox"></th>
+         <th><input type="checkbox" name="" id=""></th>
+        </tr>
+        <tr>
+         <th>
+         politeness
+     </th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox" name="" id=""></th></tr>
+     <tr>
+         <th>
+            leadership
+     </th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox" name="" id=""></th></tr>
+     <tr>
+         <th>
+            cooperation
+     </th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox" name="" id=""></th></tr>
+     <tr>
+         <th>
+            Deligence
+     </th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox" name="" id=""></th></tr>
+     <tr>
+     <th>
+        Neatness
+     </th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox"></th>
+     <th><input type="checkbox" name="" id=""></th></tr>
+     </table>
+ </div>
+     
+    <button  onclick="calculate()">submit</button>
+</body>
+</html>

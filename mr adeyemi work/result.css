@@ -1,0 +1,54 @@
+#body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    opacity: 90%;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    
+}
+#img{
+    padding-left: 250px;
+}
+#text{
+    text-align: center;
+}
+#input{
+    align-items: center;
+    padding-left: 90px;
+    margin-bottom: 20px;
+
+}
+#name{
+   height: 1.5rem;
+   width: 15rem;
+    margin-bottom: 1em;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    box-sizing: 10px;
+}
+#gender{
+    height: 1.5rem;
+    width: 5rem;
+     margin-bottom: 1em;
+     margin-left: 5rem;
+     margin-right: 2rem;
+ }
+ #class{
+    height: 1.5rem;
+    width: 15rem;
+     margin-bottom: 1em;
+     margin-left: 5rem;
+     margin-right: 2rem;
+ }
+ #alltotal{
+    margin-top: 25px;
+    padding-left: 130px;
+ }
+   #mischal{
+border: 3rem;
+   }
